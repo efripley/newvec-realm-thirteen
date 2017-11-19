@@ -1,0 +1,15 @@
+TODO
+
+Realm Thirteen
+Version 0.1
+Last Updated: 26 Apr 2016
+
+- Day 1 - DONE Complete display rendering in 4 viewing angles
+- Day 2 - DONE Complete the world generation to match PC version
+- Day 3 - DONE a player inventory
+				- DONE Add logs and leaves
+				- DONE Redraw sprite sheet for larger sprites and get rid of repitition
+				- DONE tree chopping to match the pc version
+- Day 4 - Add automated crafting
+				- Add sand and sand generation in the world
+				- Add a couple recipies: logs to planks, leaves to seeds, sand to glass

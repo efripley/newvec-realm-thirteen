@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>realm thirteen | newvec.com</title>
+		<meta name="description" content="A sudo 3d block building and survival game from a fresh perspective"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+
+	<body>
+		<section class="debug">
+
+			<div class="display-cmp">
+				<div id="debug-display" class="display"></div>
+			</div><!--end display-cmp-->
+
+		</section><!--end debug-->
+
+		<section id="display" class="display">
+
+			<div class="viewport-cmp">
+				<canvas id="viewport" class="viewport" width="0" height="0"></canvas>
+			</div><!--end viewport-cmp-->
+
+		</section><!--end display-->
+
+		<section class="user-interface">
+
+			<div class="layer-selector-cmp">
+				<div class="arrow-divider"></div>
+				<div class="arrow-divider"></div>
+				<div class="arrow-divider"></div>
+				<div id="slider" class="slider"></div>
+			</div><!--end layer-selector-cmp-->
+
+			<div class="inventory-cmp">
+				<div class="direction" id="direction"></div>
+				<div class="inventory">
+					<div class="slot"><div class="sprite" id="slot1"></div></div>
+					<div class="slot"><div class="sprite" id="slot2"></div></div>
+					<div class="slot"><div class="sprite" id="slot3"></div></div>
+					<div class="slot"><div class="sprite" id="slot4"></div></div>
+					<div class="slot"><div class="sprite" id="slot5"></div></div>
+				</div>
+				<div class="indicator" id="jump-indicator"></div>
+				<div class="indicator" id="action-indicator"></div>
+				<div class="indicator" id="action-lock-indicator"></div>
+			</div><!--end inventory-cmp-->
+
+		</section><!--end user-interface-->
+
+		<section class="media">
+
+			<img id="tiles-image" src="tiles.png">
+			<img id="player-image" src="player.png">
+
+		</section><!--end media-->
+
+		<script src="utilities.js"></script>
+		<script src="display.js"></script>
+		<script src="input.js"></script>
+		<script src="player.js"></script>
+		<script src="block.js"></script>
+		<script src="world.js"></script>
+		<script src="game.js"></script>
+
+	</body>
